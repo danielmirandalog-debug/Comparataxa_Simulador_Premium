@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Estratégico - Simulador Premium BA21</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #F5F5F5; margin: 0; padding: 20px; color: #333333; display: flex; justify-content: center; }
+        .banner { width: 750px; background: #ffffff; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #ddd; }
+        
+        /* Topo Estilo Mercado Livre */
+        .header { background: #FFE600; padding: 40px 30px; text-align: center; border-bottom: 5px solid #333333; }
+        .header h1 { margin: 0; font-size: 32px; font-weight: 800; color: #333333; letter-spacing: 1px; text-transform: uppercase; }
+        .header p { margin: 10px 0 0; font-size: 18px; font-weight: 600; color: #3483FA; }
+        
+        .conteudo { padding: 30px; }
+        
+        .secao { margin-bottom: 30px; background: #ffffff; border-radius: 12px; border-left: 6px solid #FFE600; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+        .secao-azul { border-left-color: #3483FA; }
+        .secao-vermelha { border-left-color: #f44336; }
+        
+        h2 { margin-top: 0; font-size: 20px; font-weight: 700; color: #333333; display: flex; align-items: center; gap: 10px; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+        
+        /* Estutura de Listas e Itens */
+        .passo-lista { list-style: none; padding: 0; margin: 0; }
+        .passo-item { display: flex; gap: 15px; margin-bottom: 15px; align-items: flex-start; }
+        .passo-numero { background: #FFE600; color: #333333; font-weight: 800; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 14px; }
+        .passo-texto { font-size: 15px; line-height: 1.5; }
+        .passo-texto b { color: #333333; }
+        
+        .grid-pitch { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px; }
+        .pitch-card { background: #F9F9F9; padding: 15px; border-radius: 8px; border: 1px solid #eee; }
+        .pitch-card h4 { margin: 0 0 8px 0; color: #3483FA; font-size: 15px; font-weight: 700; }
+        .pitch-card p { margin: 0; font-size: 13.5px; line-height: 1.4; color: #666; }
+        
+        .alerta-box { background: #fff3cd; border: 1px solid #ffeeba; color: #856404; padding: 15px; border-radius: 8px; font-size: 14px; line-height: 1.5; margin-bottom: 15px; }
+        
+        /* Rodapé */
+        .footer { background: #333333; color: #ffffff; padding: 25px; text-align: center; font-size: 14px; font-weight: 600; }
+        .footer p { margin: 5px 0; }
+        .footer .destaque-footer { color: #FFE600; font-size: 16px; font-weight: 700; }
+    </style>
+</head>
+<body>
+
+<div class="banner">
+    <!-- Topo Identidade Forte -->
+    <div class="header">
+        <h1>Simulador Premium BA21</h1>
+        <p>💥 Transformando Taxas em Argumentos de Vendas 💥</p>
+    </div>
+    
+    <div class="conteudo">
+        
+        <!-- Passo a Passo -->
+        <div class="secao">
+            <h2>🧭 Guia de Atendimento de Elite</h2>
+            <ul class="passo-lista">
+                <li class="passo-item">
+                    <div class="passo-numero">1</div>
+                    <div class="passo-texto"><b>Identificação Inicial:</b> Insira o nome do Seller e o CNPJ. O aplicativo aplica a máscara oficial automaticamente para acelerar a consulta.</div>
+                </li>
+                <li class="passo-item">
+                    <div class="passo-numero">2</div>
+                    <div class="passo-texto"><b>Captura das Taxas:</b> Suba as taxas atuais da concorrência utilizando o carregamento por arquivo ou digitando diretamente no layout vertical.</div>
+                </li>
+                <li class="passo-item">
+                    <div class="passo-numero">3</div>
+                    <div class="passo-texto"><b>Desenho do Share:</b> Distribua os percentuais de faturamento do cliente nas faixas de parcelamento baseando-se no histórico real dele.</div>
+                </li>
+                <li class="passo-item">
+                    <div class="passo-numero">4</div>
+                    <div class="passo-texto"><b>Exposição de Custos Ocultos:</b> Desenterre as taxas que o concorrente cobra por fora (aluguel de máquina, taxa de TED, custas de conta).</div>
+                </li>
+                <li class="passo-item">
+                    <div class="passo-numero">5</div>
+                    <div class="passo-texto"><b>Apresentação do Estudo:</b> Gere a análise e exiba o impacto visual da Economia Mensal acumulada e a projeção de rendimento real no Cofrinho.</div>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Cuidados Técnicos / Alertas -->
+        <div class="secao secao-vermelha">
+            <h2>⚠️ Lembretes Operacionais Críticos</h2>
+            <div class="alerta-box">
+                <b>📌 O OCR é um Facilitador, não um Validador:</b> Como a leitura de imagem utiliza tecnologia gratuita, prints de tela com fontes estilizadas ou fotos escuras podem sofrer oscilações. <b>É obrigatório checar e corrigir o preenchimento</b> após subir os arquivos.
+            </div>
+            <div class="alerta-box" style="background: #f8d7da; border-color: #f5c6cb; color: #721c24;">
+                <b>📌 Uso da Câmera do Celular:</b> A captura direta pela câmera pode deixar a desejar devido às variações de luz e foco. <b>Dica prática de bolso:</b> Prefira sempre pedir um print de tela limpo ao cliente e subir usando o botão <b>📁 Arquivo</b>.
+            </div>
+            <div class="alerta-box" style="margin-bottom: 0;">
+                <b>📌 Armazenamento Local Privado:</b> O histórico de propostas salvas fica armazenado exclusivamente no navegador do aparelho utilizado. Você <b>não conseguirá</b> resgatar a proposta de outro celular ou computador.
+            </div>
+        </div>
+
+        <!-- Pitch de Vendas -->
+        <div class="secao secao-azul">
+            <h2>🚀 Pitch de Vendas Imbatível</h2>
+            <ul class="passo-lista">
+                <li class="passo-item">
+                    <div class="passo-numero">📈</div>
+                    <div class="passo-texto"><b>Concentração de Share:</b> Caso ocorra, concentre estrategicamente a maior parte do faturamento mapeado do cliente nas taxas em que o Mercado Pago é superior à concorrência.</div>
+                </li>
+                <li class="passo-item">
+                    <div class="passo-numero">💼</div>
+                    <div class="passo-texto"><b>Ganhando no Ecossistema:</b> Dificilmente ganharemos em 100% das taxas de balcão, mas **todo o nosso ecossistema de soluções justifica e anula qualquer pequena diferença**. Nós vendemos lucro real, a concorrência só vende taxa.</div>
+                </li>
+            </ul>
+            
+            <div class="grid-pitch">
+                <div class="pitch-card">
+                    <h4>Gestão & Economia</h4>
+                    <p>Maquininha sem custo de aluguel, conta jurídica sem taxas de manutenção administrativa e Pix gratuito e ilimitado.</p>
+                </div>
+                <div class="pitch-card">
+                    <h4>Rentabilidade Cofrinho</h4>
+                    <p>O dinheiro do faturamento rende diariamente na conta com taxas de CDI agressivas e liquidez imediata para o caixa.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Rodapé Emocional Comercial -->
+    <div class="footer">
+        <p class="destaque-footer">Menos Custo. Mais Gestão. Parceria de Verdade.</p>
+        <p>Arrebente na apresentação amanhã, equipe! O mercado é nosso. 🚀</p>
+    </div>
+</div>
+
+</body>
+</html>
